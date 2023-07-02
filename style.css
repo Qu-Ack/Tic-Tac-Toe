@@ -1,0 +1,17 @@
+.grid-container { 
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    align-content: center;
+    justify-content: center;
+    background:grey;
+    height: 100vh;
+}
+
+.card {
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:128px;
+}
